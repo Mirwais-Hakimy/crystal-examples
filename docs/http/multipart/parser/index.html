@@ -1,0 +1,2492 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Http::Multipart::Parser · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../styles.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../params/" />
+    
+    
+    <link rel="prev" href="../builder/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Crystal Examples
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../../../array/">
+            
+                <a href="../../../array/">
+            
+                    
+                    Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../../../atomic/">
+            
+                <a href="../../../atomic/">
+            
+                    
+                    Atomic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../../../base64/">
+            
+                <a href="../../../base64/">
+            
+                    
+                    Base64
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="../../../benchmark/">
+            
+                <a href="../../../benchmark/">
+            
+                    
+                    Benchmark
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.1" data-path="../../../big/big_decimal/">
+            
+                <a href="../../../big/big_decimal/">
+            
+                    
+                    Big::BigDecimal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2" data-path="../../../big/big_float/">
+            
+                <a href="../../../big/big_float/">
+            
+                    
+                    Big::BigFloat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.3" data-path="../../../big/big_int/">
+            
+                <a href="../../../big/big_int/">
+            
+                    
+                    Big::BigInt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.4" data-path="../../../big/big_rational/">
+            
+                <a href="../../../big/big_rational/">
+            
+                    
+                    Big::BigRational
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="../../../bit_array/">
+            
+                <a href="../../../bit_array/">
+            
+                    
+                    BitArray
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="../../../bool/">
+            
+                <a href="../../../bool/">
+            
+                    
+                    Bool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" data-path="../../../char/">
+            
+                <a href="../../../char/">
+            
+                    
+                    Char
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.7.1" data-path="../../../char/reader/">
+            
+                <a href="../../../char/reader/">
+            
+                    
+                    Char::Reader
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.8" data-path="../../../class/">
+            
+                <a href="../../../class/">
+            
+                    
+                    Class
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9" data-path="../../../colorize/">
+            
+                <a href="../../../colorize/">
+            
+                    
+                    Colorize
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.10" data-path="../../../comparable/">
+            
+                <a href="../../../comparable/">
+            
+                    
+                    Comparable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.11" data-path="../../../complex/">
+            
+                <a href="../../../complex/">
+            
+                    
+                    Complex
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.12" data-path="../../../concurrent/">
+            
+                <a href="../../../concurrent/">
+            
+                    
+                    Concurrent
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.12.1" data-path="../../../concurrent/future/">
+            
+                <a href="../../../concurrent/future/">
+            
+                    
+                    Concurrent::Future
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.12.1.1" data-path="../../../crypto/bcrypt/password/">
+            
+                <a href="../../../crypto/bcrypt/password/">
+            
+                    
+                    Crypto::Bcrypt::Password
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.12.2" data-path="../../../crypto/subtle/">
+            
+                <a href="../../../crypto/subtle/">
+            
+                    
+                    Crypto::Subtle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.12.3" data-path="../../../crystal/main/">
+            
+                <a href="../../../crystal/main/">
+            
+                    
+                    Crystal::Main
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.13" data-path="../../../csv/">
+            
+                <a href="../../../csv/">
+            
+                    
+                    Csv
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.13.1" data-path="../../../csv/builder/">
+            
+                <a href="../../../csv/builder/">
+            
+                    
+                    Csv::Builder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.13.2" data-path="../../../csv/lexer/">
+            
+                <a href="../../../csv/lexer/">
+            
+                    
+                    Csv::Lexer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.14" data-path="../../../deque/">
+            
+                <a href="../../../deque/">
+            
+                    
+                    Deque
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.14.1" data-path="../../../digest/base/">
+            
+                <a href="../../../digest/base/">
+            
+                    
+                    Digest::Base
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.15" data-path="../../../dir/">
+            
+                <a href="../../../dir/">
+            
+                    
+                    Dir
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.16" data-path="../../../ecr/">
+            
+                <a href="../../../ecr/">
+            
+                    
+                    Ecr
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.16.1" data-path="../../../ecr/macros/">
+            
+                <a href="../../../ecr/macros/">
+            
+                    
+                    Ecr::Macros
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.17" data-path="../../../enum/">
+            
+                <a href="../../../enum/">
+            
+                    
+                    Enum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.18" data-path="../../../enumerable/">
+            
+                <a href="../../../enumerable/">
+            
+                    
+                    Enumerable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.19" data-path="../../../env/">
+            
+                <a href="../../../env/">
+            
+                    
+                    Env
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.20" data-path="../../../errno/">
+            
+                <a href="../../../errno/">
+            
+                    
+                    Errno
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.21" data-path="../../../exception/">
+            
+                <a href="../../../exception/">
+            
+                    
+                    Exception
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.22" data-path="../../../file/">
+            
+                <a href="../../../file/">
+            
+                    
+                    File
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.22.1" data-path="../../../file/tempfile/">
+            
+                <a href="../../../file/tempfile/">
+            
+                    
+                    File::Tempfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.23" data-path="../../../file_utils/">
+            
+                <a href="../../../file_utils/">
+            
+                    
+                    FileUtils
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.24" data-path="../../../float/">
+            
+                <a href="../../../float/">
+            
+                    
+                    Float
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.24.1" data-path="../../../gzip/reader/">
+            
+                <a href="../../../gzip/reader/">
+            
+                    
+                    Gzip::Reader
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.24.2" data-path="../../../gzip/writer/">
+            
+                <a href="../../../gzip/writer/">
+            
+                    
+                    Gzip::Writer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.25" data-path="../../../hash/">
+            
+                <a href="../../../hash/">
+            
+                    
+                    Hash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26" data-path="../../../html/">
+            
+                <a href="../../../html/">
+            
+                    
+                    Html
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.26.1" data-path="../../client/">
+            
+                <a href="../../client/">
+            
+                    
+                    Http::Client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26.2" data-path="../../common/">
+            
+                <a href="../../common/">
+            
+                    
+                    Http::Common
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26.3" data-path="../../cookie/">
+            
+                <a href="../../cookie/">
+            
+                    
+                    Http::Cookie
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26.4" data-path="../../formdata/">
+            
+                <a href="../../formdata/">
+            
+                    
+                    Http::Formdata
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.26.4.1" data-path="../../formdata/builder/">
+            
+                <a href="../../formdata/builder/">
+            
+                    
+                    Http::Formdata::Builder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26.4.2" data-path="../../formdata/parser/">
+            
+                <a href="../../formdata/parser/">
+            
+                    
+                    Http::Formdata::Parser
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26.5" data-path="../../headers/">
+            
+                <a href="../../headers/">
+            
+                    
+                    Http::Headers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26.6" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Http::Multipart
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.26.6.1" data-path="../builder/">
+            
+                <a href="../builder/">
+            
+                    
+                    Http::Multipart::Builder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.1.26.6.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Http::Multipart::Parser
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26.7" data-path="../../params/">
+            
+                <a href="../../params/">
+            
+                    
+                    Http::Params
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26.8" data-path="../../server/">
+            
+                <a href="../../server/">
+            
+                    
+                    Http::Server
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.26.8.1" data-path="../../server/handler/">
+            
+                <a href="../../server/handler/">
+            
+                    
+                    Http::Server::Handler
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.26.9" data-path="../../web_socket/">
+            
+                <a href="../../web_socket/">
+            
+                    
+                    Http::WebSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.27" data-path="../../../indexable/">
+            
+                <a href="../../../indexable/">
+            
+                    
+                    Indexable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.28" data-path="../../../ini/">
+            
+                <a href="../../../ini/">
+            
+                    
+                    Ini
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.29" data-path="../../../int/">
+            
+                <a href="../../../int/">
+            
+                    
+                    Int
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.30" data-path="../../../io/">
+            
+                <a href="../../../io/">
+            
+                    
+                    Io
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.30.1" data-path="../../../io/byte_format/">
+            
+                <a href="../../../io/byte_format/">
+            
+                    
+                    Io::ByteFormat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.30.2" data-path="../../../io/console/">
+            
+                <a href="../../../io/console/">
+            
+                    
+                    Io::Console
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.30.3" data-path="../../../io/delimited/">
+            
+                <a href="../../../io/delimited/">
+            
+                    
+                    Io::Delimited
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.30.4" data-path="../../../io/file_descriptor/">
+            
+                <a href="../../../io/file_descriptor/">
+            
+                    
+                    Io::FileDescriptor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.30.5" data-path="../../../io/hexdump/">
+            
+                <a href="../../../io/hexdump/">
+            
+                    
+                    Io::Hexdump
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.30.6" data-path="../../../io/memory/">
+            
+                <a href="../../../io/memory/">
+            
+                    
+                    Io::Memory
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.30.7" data-path="../../../io/multi_writer/">
+            
+                <a href="../../../io/multi_writer/">
+            
+                    
+                    Io::MultiWriter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.30.8" data-path="../../../io/sized/">
+            
+                <a href="../../../io/sized/">
+            
+                    
+                    Io::Sized
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.30.9" data-path="../../../io/stapled/">
+            
+                <a href="../../../io/stapled/">
+            
+                    
+                    Io::Stapled
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.31" data-path="../../../iterable/">
+            
+                <a href="../../../iterable/">
+            
+                    
+                    Iterable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.32" data-path="../../../iterator/">
+            
+                <a href="../../../iterator/">
+            
+                    
+                    Iterator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.33" data-path="../../../json/">
+            
+                <a href="../../../json/">
+            
+                    
+                    Json
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.33.1" data-path="../../../json/any/">
+            
+                <a href="../../../json/any/">
+            
+                    
+                    Json::Any
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.33.2" data-path="../../../json/builder/">
+            
+                <a href="../../../json/builder/">
+            
+                    
+                    Json::Builder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.33.3" data-path="../../../json/from_json/">
+            
+                <a href="../../../json/from_json/">
+            
+                    
+                    Json::FromJson
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.33.4" data-path="../../../json/mapping/">
+            
+                <a href="../../../json/mapping/">
+            
+                    
+                    Json::Mapping
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.33.4.1" data-path="../../../json/next/serialization/">
+            
+                <a href="../../../json/next/serialization/">
+            
+                    
+                    Json::Next::Serialization
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.33.5" data-path="../../../json/serialization/">
+            
+                <a href="../../../json/serialization/">
+            
+                    
+                    Json::Serialization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.33.6" data-path="../../../json/to_json/">
+            
+                <a href="../../../json/to_json/">
+            
+                    
+                    Json::ToJson
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.34" data-path="../../../kernel/">
+            
+                <a href="../../../kernel/">
+            
+                    
+                    Kernel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.35" data-path="../../../levenshtein/">
+            
+                <a href="../../../levenshtein/">
+            
+                    
+                    Levenshtein
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.36" data-path="../../../logger/">
+            
+                <a href="../../../logger/">
+            
+                    
+                    Logger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.37" data-path="../../../macros/">
+            
+                <a href="../../../macros/">
+            
+                    
+                    Macros
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.38" data-path="../../../markdown/">
+            
+                <a href="../../../markdown/">
+            
+                    
+                    Markdown
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.38.1" data-path="../../../math/math/">
+            
+                <a href="../../../math/math/">
+            
+                    
+                    Math::Math
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.39" data-path="../../../mime/">
+            
+                <a href="../../../mime/">
+            
+                    
+                    Mime
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.40" data-path="../../../named_tuple/">
+            
+                <a href="../../../named_tuple/">
+            
+                    
+                    NamedTuple
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.41" data-path="../../../nil/">
+            
+                <a href="../../../nil/">
+            
+                    
+                    Nil
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.42" data-path="../../../number/">
+            
+                <a href="../../../number/">
+            
+                    
+                    Number
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.42.1" data-path="../../../oauth/consumer/">
+            
+                <a href="../../../oauth/consumer/">
+            
+                    
+                    Oauth::Consumer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.42.2" data-path="../../../oauth/oauth/">
+            
+                <a href="../../../oauth/oauth/">
+            
+                    
+                    Oauth::Oauth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.42.3" data-path="../../../oauth2/client/">
+            
+                <a href="../../../oauth2/client/">
+            
+                    
+                    Oauth2::Client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.42.4" data-path="../../../oauth2/oauth2/">
+            
+                <a href="../../../oauth2/oauth2/">
+            
+                    
+                    Oauth2::Oauth2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.43" data-path="../../../object/">
+            
+                <a href="../../../object/">
+            
+                    
+                    Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.44" data-path="../../../openssl/">
+            
+                <a href="../../../openssl/">
+            
+                    
+                    Openssl
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.44.1" data-path="../../../openssl/digest/digest_io/">
+            
+                <a href="../../../openssl/digest/digest_io/">
+            
+                    
+                    Openssl::Digest::DigestIo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.44.2" data-path="../../../openssl/ssl/context/">
+            
+                <a href="../../../openssl/ssl/context/">
+            
+                    
+                    Openssl::Ssl::Context
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.44.3" data-path="../../../openssl/ssl/server/">
+            
+                <a href="../../../openssl/ssl/server/">
+            
+                    
+                    Openssl::Ssl::Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.44.4" data-path="../../../openssl/x509/name/">
+            
+                <a href="../../../openssl/x509/name/">
+            
+                    
+                    Openssl::X509::Name
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.45" data-path="../../../option_parser/">
+            
+                <a href="../../../option_parser/">
+            
+                    
+                    OptionParser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.46" data-path="../../../pointer/">
+            
+                <a href="../../../pointer/">
+            
+                    
+                    Pointer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.47" data-path="../../../pretty_print/">
+            
+                <a href="../../../pretty_print/">
+            
+                    
+                    PrettyPrint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.48" data-path="../../../primitives/">
+            
+                <a href="../../../primitives/">
+            
+                    
+                    Primitives
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.49" data-path="../../../proc/">
+            
+                <a href="../../../proc/">
+            
+                    
+                    Proc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.50" data-path="../../../process/">
+            
+                <a href="../../../process/">
+            
+                    
+                    Process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.51" data-path="../../../random/">
+            
+                <a href="../../../random/">
+            
+                    
+                    Random
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.51.1" data-path="../../../random/secure/">
+            
+                <a href="../../../random/secure/">
+            
+                    
+                    Random::Secure
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.52" data-path="../../../range/">
+            
+                <a href="../../../range/">
+            
+                    
+                    Range
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.52.1" data-path="../../../range/bsearch/">
+            
+                <a href="../../../range/bsearch/">
+            
+                    
+                    Range::Bsearch
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.53" data-path="../../../reference/">
+            
+                <a href="../../../reference/">
+            
+                    
+                    Reference
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.54" data-path="../../../regex/">
+            
+                <a href="../../../regex/">
+            
+                    
+                    Regex
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.54.1" data-path="../../../regex/match_data/">
+            
+                <a href="../../../regex/match_data/">
+            
+                    
+                    Regex::MatchData
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.55" data-path="../../../semantic_version/">
+            
+                <a href="../../../semantic_version/">
+            
+                    
+                    SemanticVersion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.56" data-path="../../../set/">
+            
+                <a href="../../../set/">
+            
+                    
+                    Set
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.57" data-path="../../../signal/">
+            
+                <a href="../../../signal/">
+            
+                    
+                    Signal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.58" data-path="../../../slice/">
+            
+                <a href="../../../slice/">
+            
+                    
+                    Slice
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.59" data-path="../../../socket/">
+            
+                <a href="../../../socket/">
+            
+                    
+                    Socket
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.59.1" data-path="../../../socket/address/">
+            
+                <a href="../../../socket/address/">
+            
+                    
+                    Socket::Address
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.59.2" data-path="../../../socket/addrinfo/">
+            
+                <a href="../../../socket/addrinfo/">
+            
+                    
+                    Socket::Addrinfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.59.3" data-path="../../../socket/server/">
+            
+                <a href="../../../socket/server/">
+            
+                    
+                    Socket::Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.59.4" data-path="../../../socket/tcp_server/">
+            
+                <a href="../../../socket/tcp_server/">
+            
+                    
+                    Socket::TcpServer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.59.5" data-path="../../../socket/tcp_socket/">
+            
+                <a href="../../../socket/tcp_socket/">
+            
+                    
+                    Socket::TcpSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.59.6" data-path="../../../socket/udp_socket/">
+            
+                <a href="../../../socket/udp_socket/">
+            
+                    
+                    Socket::UdpSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.59.7" data-path="../../../socket/unix_server/">
+            
+                <a href="../../../socket/unix_server/">
+            
+                    
+                    Socket::UnixServer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.59.8" data-path="../../../socket/unix_socket/">
+            
+                <a href="../../../socket/unix_socket/">
+            
+                    
+                    Socket::UnixSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.60" data-path="../../../spec/">
+            
+                <a href="../../../spec/">
+            
+                    
+                    Spec
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.60.1" data-path="../../../spec/methods/">
+            
+                <a href="../../../spec/methods/">
+            
+                    
+                    Spec::Methods
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.61" data-path="../../../static_array/">
+            
+                <a href="../../../static_array/">
+            
+                    
+                    StaticArray
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.62" data-path="../../../string/">
+            
+                <a href="../../../string/">
+            
+                    
+                    String
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.62.1" data-path="../../../string/utf16/">
+            
+                <a href="../../../string/utf16/">
+            
+                    
+                    String::Utf16
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.63" data-path="../../../string_pool/">
+            
+                <a href="../../../string_pool/">
+            
+                    
+                    StringPool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.64" data-path="../../../string_scanner/">
+            
+                <a href="../../../string_scanner/">
+            
+                    
+                    StringScanner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.65" data-path="../../../struct/">
+            
+                <a href="../../../struct/">
+            
+                    
+                    Struct
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.66" data-path="../../../symbol/">
+            
+                <a href="../../../symbol/">
+            
+                    
+                    Symbol
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.67" data-path="../../../system/">
+            
+                <a href="../../../system/">
+            
+                    
+                    System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.68" data-path="../../../tempfile/">
+            
+                <a href="../../../tempfile/">
+            
+                    
+                    Tempfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.69" data-path="../../../time/">
+            
+                <a href="../../../time/">
+            
+                    
+                    Time
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.69.1" data-path="../../../time/location/">
+            
+                <a href="../../../time/location/">
+            
+                    
+                    Time::Location
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.69.2" data-path="../../../time/span/">
+            
+                <a href="../../../time/span/">
+            
+                    
+                    Time::Span
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.70" data-path="../../../tuple/">
+            
+                <a href="../../../tuple/">
+            
+                    
+                    Tuple
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.70.1" data-path="../../../unicode/unicode/">
+            
+                <a href="../../../unicode/unicode/">
+            
+                    
+                    Unicode::Unicode
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.71" data-path="../../../union/">
+            
+                <a href="../../../union/">
+            
+                    
+                    Union
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.72" data-path="../../../uri/">
+            
+                <a href="../../../uri/">
+            
+                    
+                    Uri
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.72.1" data-path="../../../uuid/json/">
+            
+                <a href="../../../uuid/json/">
+            
+                    
+                    Uuid::Json
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.73" data-path="../../../weak_ref/">
+            
+                <a href="../../../weak_ref/">
+            
+                    
+                    WeakRef
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.74" data-path="../../../xml/">
+            
+                <a href="../../../xml/">
+            
+                    
+                    Xml
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.74.1" data-path="../../../xml/builder/">
+            
+                <a href="../../../xml/builder/">
+            
+                    
+                    Xml::Builder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.74.2" data-path="../../../xml/node/">
+            
+                <a href="../../../xml/node/">
+            
+                    
+                    Xml::Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.75" data-path="../../../yaml/">
+            
+                <a href="../../../yaml/">
+            
+                    
+                    Yaml
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.75.1" data-path="../../../yaml/any/">
+            
+                <a href="../../../yaml/any/">
+            
+                    
+                    Yaml::Any
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.75.2" data-path="../../../yaml/builder/">
+            
+                <a href="../../../yaml/builder/">
+            
+                    
+                    Yaml::Builder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.75.3" data-path="../../../yaml/mapping/">
+            
+                <a href="../../../yaml/mapping/">
+            
+                    
+                    Yaml::Mapping
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.75.3.1" data-path="../../../yaml/next/serialization/">
+            
+                <a href="../../../yaml/next/serialization/">
+            
+                    
+                    Yaml::Next::Serialization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.75.3.2" data-path="../../../yaml/schema/core/">
+            
+                <a href="../../../yaml/schema/core/">
+            
+                    
+                    Yaml::Schema::Core
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.75.4" data-path="../../../yaml/serialization/">
+            
+                <a href="../../../yaml/serialization/">
+            
+                    
+                    Yaml::Serialization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.75.5" data-path="../../../zip/file/">
+            
+                <a href="../../../zip/file/">
+            
+                    
+                    Zip::File
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.75.6" data-path="../../../zip/reader/">
+            
+                <a href="../../../zip/reader/">
+            
+                    
+                    Zip::Reader
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.75.7" data-path="../../../zip/writer/">
+            
+                <a href="../../../zip/writer/">
+            
+                    
+                    Zip::Writer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Http::Multipart::Parser</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="httpmultipartparser"><div class="success">Http::Multipart::Parser</div></h1>
+<p><span class="success">2 (2 successes, 0 failures, 0 errors, 0 pending, 0 unknown)</span></p>
+<h4 id="001-ok">001: <span class="success">OK</span></h4>
+<p><a href="https://github.com/crystal-lang/crystal/blob/0.27.0/src/http/multipart/parser.cr#L7" target="_blank">https://github.com/crystal-lang/crystal/blob/0.27.0/src/http/multipart/parser.cr#L7</a></p>
+<pre><code class="lang-crystal"><span class="hljs-keyword">require</span> <span class="hljs-string">&quot;http&quot;</span>
+multipart = <span class="hljs-string">&quot;--aA40\r\nContent-Type: text/plain\r\n\r\nbody\r\n--aA40--&quot;</span>
+parser = <span class="hljs-symbol">HTTP:</span>:<span class="hljs-symbol">Multipart:</span>:Parser.new(<span class="hljs-symbol">IO:</span>:Memory.new(multipart), <span class="hljs-string">&quot;aA40&quot;</span>)
+
+<span class="hljs-keyword">while</span> parser.has_next?
+  parser.<span class="hljs-keyword">next</span> <span class="hljs-keyword">do</span> |headers, io|
+    headers[<span class="hljs-string">&quot;Content-Type&quot;</span>] <span class="hljs-comment"># =&gt; &quot;text/plain&quot;</span>
+    io.gets_to_end          <span class="hljs-comment"># =&gt; &quot;body&quot;</span>
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+<h4 id="002-ok">002: <span class="success">OK</span></h4>
+<p><a href="https://github.com/crystal-lang/crystal/blob/0.27.0/src/http/multipart/parser.cr#L39" target="_blank">https://github.com/crystal-lang/crystal/blob/0.27.0/src/http/multipart/parser.cr#L39</a></p>
+<pre><code class="lang-crystal"><span class="hljs-keyword">require</span> <span class="hljs-string">&quot;http&quot;</span>
+multipart = <span class="hljs-string">&quot;--aA40\r\nContent-Type: text/plain\r\n\r\nbody\r\n--aA40--&quot;</span>
+parser = <span class="hljs-symbol">HTTP:</span>:<span class="hljs-symbol">Multipart:</span>:Parser.new(<span class="hljs-symbol">IO:</span>:Memory.new(multipart), <span class="hljs-string">&quot;aA40&quot;</span>)
+parser.<span class="hljs-keyword">next</span> <span class="hljs-keyword">do</span> |headers, io|
+  headers[<span class="hljs-string">&quot;Content-Type&quot;</span>] <span class="hljs-comment"># =&gt; &quot;text/plain&quot;</span>
+  io.gets_to_end          <span class="hljs-comment"># =&gt; &quot;body&quot;</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../builder/" class="navigation navigation-prev " aria-label="Previous page: Http::Multipart::Builder">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../params/" class="navigation navigation-next " aria-label="Next page: Http::Params">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Http::Multipart::Parser","level":"1.1.26.6.2","depth":4,"next":{"title":"Http::Params","level":"1.1.26.7","depth":3,"path":"http/params/README.md","ref":"http/params/README.md","articles":[]},"previous":{"title":"Http::Multipart::Builder","level":"1.1.26.6.1","depth":4,"path":"http/multipart/builder/README.md","ref":"http/multipart/builder/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles.css"}},"file":{"path":"http/multipart/parser/README.md","mtime":"2019-01-06T08:14:02.754Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-06T08:14:03.861Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

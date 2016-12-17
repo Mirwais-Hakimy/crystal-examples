@@ -1,0 +1,1 @@
+../../spec/oauth/consumer_spec.cr

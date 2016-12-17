@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  crystal:
+    image: crystallang/crystal:0.27.0
+    command: shards build --link-flags "-static"
+    volumes:
+      - .:/v
+    working_dir: /v

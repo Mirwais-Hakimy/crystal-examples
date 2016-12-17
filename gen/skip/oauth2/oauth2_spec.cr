@@ -1,0 +1,1 @@
+../../spec/oauth2/oauth2_spec.cr

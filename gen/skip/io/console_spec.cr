@@ -1,0 +1,1 @@
+../../spec/io/console_spec.cr

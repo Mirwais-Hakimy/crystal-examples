@@ -1,0 +1,10 @@
+# kernel.cr:241
+sprintf "%x", 123   # => "7b"
+sprintf "%+x", 123  # => "+7b"
+sprintf "%x", -123  # => "-7b"
+sprintf "%+x", -123 # => "-7b"
+sprintf "%#x", 0    # => "0"
+sprintf "% x", 123  # => " 7b"
+sprintf "% x", -123 # => "-7b"
+sprintf "%X", 123   # => "7B"
+sprintf "%#X", -123 # => "-7B"

@@ -1,0 +1,43 @@
+h4>span.success + p + pre { background-color: #DFF2BF; }
+h4>span.warning + p + pre { background-color: #FEEFB3; }
+h4>span.error   + p + pre { background-color: #FFBABA; }
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+.info i, .success i, .warning i, .error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
+
+.badge {
+    position:relative;
+}
+.badge[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    font-size:.7em;
+    background: #faba3e;
+    color:white;
+    width:18px;height:18px;
+    text-align:center;
+    line-height:18px;
+    border-radius:50%;
+    box-shadow:0 0 1px #333;
+}

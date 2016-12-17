@@ -1,0 +1,1 @@
+../spec/object_spec.cr

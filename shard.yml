@@ -1,0 +1,24 @@
+name: crystal-examples
+version: 0.3.1
+
+dependencies:
+  app:
+    github: maiha/app.cr
+    version: 0.5.0
+
+  comment-spec:
+    github: maiha/comment-spec.cr
+    version: 0.4.0
+
+  shell:
+    github: maiha/shell.cr
+    version: 0.4.0
+
+authors:
+  - maiha <maiha@wota.jp>
+
+targets:
+  crystal-examples:
+    main: src/bin/main.cr
+
+license: MIT

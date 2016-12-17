@@ -1,0 +1,1 @@
+../../spec/crystal/main_spec.cr

@@ -1,0 +1,1 @@
+../../spec/random/secure_spec.cr

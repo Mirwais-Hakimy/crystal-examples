@@ -1,0 +1,7 @@
+require "colorize"
+require "file_utils"
+require "digest/sha1"
+require "app"
+require "comment-spec"
+require "shell"
+require "./examples/**"
